@@ -9,4 +9,3 @@ export function generateId(len: number) {
     return Array.from(arr, dec2hex).join('')
 }
 
-console.log(generateId(20))
