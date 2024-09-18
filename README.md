@@ -9,13 +9,20 @@ A fully function web app, users can:
 - Track url click counts
 - Delete URL
 
-## Run on local machine
+## Start the project
+### Requirements
+- NodeJS
 
+### Running locally
 The provided local Pocketbase instance is for **Windows only**, please go to [Pocketbase Docs](https://pocketbase.io/docs) and replace the "pocketbase.exe" instance with a suitable version for your machine (not tested)
 
-1. Install dependencies
-2. Build the app (built folder changed to pb_public to serve using pocketbase)
-3. Serve pocketbase
+1. Clone the project
+```
+git clone https://github.com/thaiminh2022/Url-Shortener-Spock.git ./url-shortener-spock
+```
+3. Install dependencies
+4. Build the app (built folder changed to pb_public to serve using pocketbase)
+5. Serve pocketbase
 ```
 npm install 
 npm run build
